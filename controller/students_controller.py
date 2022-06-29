@@ -7,6 +7,8 @@ def get_all_students():
     display.print_table(students, "Students List:")
 
 
+def display_best_student_in_each_school():
+    print("best student is cristi")
 def get_number_of_school_classes():
     print('Display of number o school classes')
 
