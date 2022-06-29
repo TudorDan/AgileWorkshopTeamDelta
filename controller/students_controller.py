@@ -7,6 +7,10 @@ def get_all_students():
     display.print_table(students, "Students List:")
 
 
+def display_best_student_in_each_school():
+    print("best student is cristi")
+
+
 def choose_operation():
     option = display.get_inputs(["Please enter a number: "], "")[0]
     if option == '1':
