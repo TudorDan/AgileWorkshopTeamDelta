@@ -31,3 +31,5 @@ def menu():
             choose()
         except KeyError as err:
             display.print_message(str(err), True)
+
+

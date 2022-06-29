@@ -48,3 +48,5 @@ def submenu():
             running = choose_operation()
         except KeyError as err:
             display.print_message(str(err), True)
+
+
