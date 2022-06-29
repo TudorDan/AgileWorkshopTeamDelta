@@ -72,3 +72,7 @@ def print_table(table, title):
         for index, column in enumerate(table[i]):
             print(f"{headers[index]}:{BLUE}{column}{RESET} ", end="")
         print("\n----------------------------------------")
+
+
+def print_nothing():
+    print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")

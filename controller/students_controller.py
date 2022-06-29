@@ -9,6 +9,9 @@ def get_all_students():
 
 def display_best_student_in_each_school():
     print("best student is cristi")
+def get_number_of_school_classes():
+    print('Display of number o school classes')
+
 
 
 def choose_operation():
@@ -21,6 +24,8 @@ def choose_operation():
         display.print_message("Update", True)
     elif option == '4':
         display.print_message("Delete", True)
+    elif option == '5':
+        get_number_of_school_classes()
     elif option == '0':
         return False
     else:
@@ -45,3 +50,5 @@ def submenu():
             running = choose_operation()
         except KeyError as err:
             display.print_message(str(err), True)
+
+
