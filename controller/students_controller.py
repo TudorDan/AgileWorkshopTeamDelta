@@ -7,6 +7,11 @@ def get_all_students():
     display.print_table(students, "Students List:")
 
 
+def get_number_of_school_classes():
+    print('Display of number o school classes')
+
+
+
 def choose_operation():
     option = display.get_inputs(["Please enter a number: "], "")[0]
     if option == '1':
@@ -17,6 +22,8 @@ def choose_operation():
         display.print_message("Update", True)
     elif option == '4':
         display.print_message("Delete", True)
+    elif option == '5':
+        get_number_of_school_classes()
     elif option == '0':
         return False
     else:
